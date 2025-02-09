@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - My Attractive Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        
+        nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+            color: black ;
+        }
+        
+        .hero p {
+            font-size: 20px;
+            margin: 10px 0 20px;
+            color: black ;
+        }
+        
+        .content-section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content-section h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .content-section p, .content-section ul {
+            font-size: 16px;
+            color: #666;
+        }
+        
+        .content-section ul {
+            padding-left: 20px;
+        }
+        
+        .team-images {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .team-images img {
+            width: 30%;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 5px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .team-images img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Rehan Khan</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>About Us</h1>
+        <p>Learn more about our mission and values.</p>
+    </section>
+
+    <section class="content-section">
+        <h2>Our Mission</h2>
+        <p>At MyWebsite, our mission is to provide high-quality services that exceed our clients' expectations. We believe in the power of collaboration and innovation to create impactful solutions.</p>
+    </section>
+
+    <section class="content-section">
+        <h2>Our Values</h2>
+        <ul>
+            <li><strong>Integrity:</strong> We uphold the highest standards of integrity in all our actions.</li>
+            <li><strong>Excellence:</strong> We strive for excellence in everything we do.</li>
+            <li><strong>Innovation:</strong> We embrace change and seek new ideas to improve our services.</li>
+            <li><strong>Collaboration:</strong> We work together to achieve common goals.</li>
+        </ul>
+    </section>
+
+    <section class="content-section">
+        <h2>Our Team</h2>
+        <p>We are a diverse group of professionals with a wide range of skills and experiences. Our team is dedicated to delivering the best results for our clients.</p>
+        <div class="team-images">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Attractive Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
